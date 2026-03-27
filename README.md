@@ -16,3 +16,18 @@ Cuando coincide:
 	-Se muestra la contraseña encontrada
 	-Número de intentos
 	-Tiempo de ejecución
+Ejemplos de Salida:
+1.-
+Contraseña encontrada: uide
+Intentos: 5039737
+Tiempo: 5.298568964004517 segundos
+2.-
+Contraseña encontrada: 2026
+Intentos: 13315241
+Tiempo: 15.718999147415161 segundos
+3.-
+Contraseña encontrada: igaf
+Intentos: 2171928
+Tiempo: 2.2668983936309814 segundos
+Reflexion
+Si una contraseña tiene 8 o más caracteres y combina mayúsculas, minúsculas, números y símbolos, el número de combinaciones posibles crece exponencialmente esto hace que un ataque de fuerza bruta requiera una cantidad de tiempo mucho mas grande volviéndose prácticamente inviable por eso es importante utilizar contraseñas largas y complejas
